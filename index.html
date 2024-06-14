@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel, Tigera</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="funciones.js"></script>
+</head>
+<body>
+    <header class="bienvenida-juego">
+        <h1 class="bienvenida">Bienvenido al juego</h1>
+    </header>
+    <section class="seccion-seleccionar">
+        <label for="nombre-jugador">Ingrese su nombre</label>
+        <input type="text" id="nombre-jugador" required>
+        <div>
+            <label for="vegueta">Vegueta</label>
+            <input type="radio" id="vegueta" name="abatar">
+            <label for="vegueta">Goku</label>
+            <input type="radio" id="goku" name="abatar">
+            <label for="vegueta">Broly</label>
+            <input type="radio" id="broly" name="abatar">
+        </div>
+        <button id="seleccion-abatar">Seleccionar</button>
+    </section>
+    <section class="seccion-parrafo">
+        <p id="mostrar-parrafo"></p>
+        <p id="mostrar-parrafo-enemigo"></p>
+    </section>
+    <section class="ataques">
+        <button id="piedra">Piedra</button>
+        <button id="papel">Papel</button>
+        <button id="tigera">Tigera</button>
+    </section>
+    <section class="respuesta-atauqes">
+        <p id="resp-ataques"></p>
+        <button id="btn-reiniciar">Reiniciar</button>
+    </section>
+</body>
+</html>
